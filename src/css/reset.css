@@ -1,0 +1,9 @@
+* {
+    padding: 0; /* espaçamento interno do elemento, entre o conteúdo e as bordas*/
+    margin: 0;
+    box-sizing: border-box; /*Ajuda a trabalhar mais fácil com espaçamento, como margens, padding. Faz com que o margin e o padding dos elementos sejam adicionados na alrgura e na altura dos elementos*/
+}
+
+ul {
+    list-style-type: none;
+}

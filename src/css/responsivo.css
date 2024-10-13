@@ -1,0 +1,43 @@
+/* Site responsivo, é um site bonito e funcional em todos os tamanhos de tela de vários dispositivos, ou seja, tanto no celular quanto em TV' e Computadores*/
+
+/* Aqui está falando que se a tela tiver 750px ou menos, para aplicar o que está dentro da função*/
+@media(max-width: 750px){
+    /* flex-direction: column Faz com que os filhos da classe pokedevs, fiquem em colunas, ou seja, o conteúdo do cartão e a listagem*/
+    .pokedevs{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .cartao-pokedev{
+        max-width: 300px;
+    }
+
+    .cartao-pokedev .cartao-informacoes{
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .cartao-pokedev .cartao-informacoes h3{
+        font-size: 16px;
+    }
+
+    .listagem{
+        max-width: 360px;
+    }
+
+    .listagem .pokedev{
+        width: 45%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;
+    }
+
+    .listagem ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
